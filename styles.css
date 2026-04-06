@@ -226,6 +226,29 @@ ul { list-style: none; }
 .logo strong { color: var(--green-600); }
 .logo-leaf { font-size: 1.4rem; }
 
+/* ── Solge Logo ── */
+.solge-logo { gap: 10px; align-items: center; }
+.solge-icon { flex-shrink: 0; display: block; }
+.solge-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  gap: 2px;
+}
+.solge-name {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #33ee00;
+  letter-spacing: -.02em;
+}
+.solge-sub {
+  font-size: .68rem;
+  font-weight: 500;
+  color: var(--gray-500);
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
 .nav-links {
   display: flex;
   gap: 32px;

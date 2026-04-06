@@ -15,9 +15,22 @@
   <!-- NAV -->
   <header class="navbar" id="navbar">
     <div class="container nav-inner">
-      <a href="#inicio" class="logo">
-        <span class="logo-leaf">🌿</span>
-        <span class="logo-text">Huella<strong>Chile</strong></span>
+      <a href="#inicio" class="logo solge-logo">
+        <svg class="solge-icon" viewBox="0 0 50 50" width="40" height="40" aria-hidden="true">
+          <defs>
+            <pattern id="nav-sp" x="0" y="0" width="50" height="4" patternUnits="userSpaceOnUse">
+              <rect width="50" height="2.8" fill="#33ee00"/>
+            </pattern>
+            <clipPath id="nav-sc">
+              <path d="M25,3 A22,22 0 1,0 25,47 L25,40 A15,15 0 1,0 25,10 Z"/>
+            </clipPath>
+          </defs>
+          <rect x="0" y="0" width="50" height="50" fill="url(#nav-sp)" clip-path="url(#nav-sc)"/>
+        </svg>
+        <span class="solge-text">
+          <span class="solge-name">Solge</span>
+          <span class="solge-sub">Ambiental</span>
+        </span>
       </a>
       <nav class="nav-links">
         <a href="#que-es">¿Qué es?</a>
@@ -316,9 +329,22 @@
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container footer-inner">
-      <div class="footer-brand">
-        <span class="logo-leaf">🌿</span>
-        <span class="logo-text">Huella<strong>Chile</strong></span>
+      <div class="footer-brand solge-logo">
+        <svg class="solge-icon" viewBox="0 0 50 50" width="34" height="34" aria-hidden="true">
+          <defs>
+            <pattern id="ft-sp" x="0" y="0" width="50" height="4" patternUnits="userSpaceOnUse">
+              <rect width="50" height="2.8" fill="#33ee00"/>
+            </pattern>
+            <clipPath id="ft-sc">
+              <path d="M25,3 A22,22 0 1,0 25,47 L25,40 A15,15 0 1,0 25,10 Z"/>
+            </clipPath>
+          </defs>
+          <rect x="0" y="0" width="50" height="50" fill="url(#ft-sp)" clip-path="url(#ft-sc)"/>
+        </svg>
+        <span class="solge-text">
+          <span class="solge-name" style="color:#33ee00">Solge</span>
+          <span class="solge-sub" style="color:rgba(255,255,255,.55)">Ambiental</span>
+        </span>
       </div>
       <p class="footer-tagline">Certificación oficial de Huella de Carbono — Ministerio del Medio Ambiente de Chile</p>
       <div class="footer-links">
